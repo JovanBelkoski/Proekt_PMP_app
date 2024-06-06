@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "785712438992",
+    "project_id": "pmp-aplikacija-2024",
+    "storage_bucket": "pmp-aplikacija-2024.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:785712438992:android:9d392976a18bf4653b08d5",
+        "android_client_info": {
+          "package_name": "com.example.pmp_aplikacija_2024"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "785712438992-eot6ke29im7krmui90amau6vlvr01582.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBk6a0KFIULv00dYsZc5pP6h5Q7wKy46lE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "785712438992-eot6ke29im7krmui90amau6vlvr01582.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
