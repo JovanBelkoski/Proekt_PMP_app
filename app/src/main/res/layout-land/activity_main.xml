@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E45B2F"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="16dp"
+            android:padding="16dp"
+            android:radius="20dp"
+            android:background="#FFFFFF">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/Naslov"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/registracija"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:textColor="#000000" />
+
+                <EditText
+                    android:id="@+id/KorisnickoIme"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:hint="@string/korisnickoime"
+                    android:inputType="text"
+                    android:backgroundTint="#E45B2F" />
+
+                <EditText
+                    android:id="@+id/Password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:hint="@string/password"
+                    android:inputType="textPassword"
+                    android:backgroundTint="#E45B2F" />
+
+                <Button
+                    android:id="@+id/Register"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="@string/register"
+                    android:textAllCaps="false"
+                    android:backgroundTint="#EAE0DD"
+                    android:padding="12dp"
+                    android:radius="20dp"
+                    android:textColor="#000000" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_horizontal"
+                    android:layout_marginTop="16dp">
+
+                    <Button
+                        android:id="@+id/LoginAnonymousButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/anonimna"
+                        android:textAllCaps="false"
+                        android:backgroundTint="#EAE0DD"
+                        android:padding="12dp"
+                        android:radius="20dp"
+                        android:textColor="#000000" />
+
+                    <Button
+                        android:id="@+id/GoogleSignInButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:text="@string/google"
+                        android:textAllCaps="false"
+                        android:backgroundTint="#EAE0DD"
+                        android:padding="12dp"
+                        android:radius="20dp"
+                        android:textColor="#000000" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/Link"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="@string/korisnik"
+                    android:textColor="#151515"
+                    android:gravity="center"
+                    android:clickable="true"
+                    android:onClick="Klik" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+</ScrollView>
+
+
+
+
+
+
+
