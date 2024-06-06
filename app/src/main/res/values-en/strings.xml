@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PMP_aplikacija_2024</string>
+
+    <string name="registracija">Register</string>
+    <string name="korisnickoime">Username</string>
+    <string name="password">Password</string>
+    <string name="register">Register</string>
+    <string name="anonimna">Аnonymous login</string>
+    <string name="google">Google login</string>
+    <string name="korisnik">Already a user? Click here to login</string>
+
+    <string name="najava">Login</string>
+    <string name="vensiime">Username</string>
+    <string name="vnesipasvord">Password</string>
+    <string name="Loginkopce">Login</string>
+    <string name="anonimnokopce">Anonymous login</string>
+    <string name="googlekopce">Google login</string>
+
+    <string name="naslovkviz">QUIZ</string>
+    <string name="javakviz">Java quiz</string>
+    <string name="pajtonkviz">Paython quiz</string>
+    <string name="androidkviz">Android quiz</string>
+    <string name="isprati">Send</string>
+
+    <string name="pole">Fill in all the fields</string>
+    <string name="uspesna">Successful registration</string>
+    <string name="neuspesna">Failed registration</string>
+    <string name="annajava">Anonymous login successful</string>
+    <string name="annajavaa">Anonymous login failed</string>
+    <string name="googlesucc">Google login successful</string>
+    <string name="googlefailed">Google login failed</string>
+    <string name="dodadenipodatoci">Data has been added</string>
+    <string name="greskapodatoci">Error add data</string>
+    <string name="loginnajavauspesno">Successful login</string>
+    <string name="pogresnoimepasvord">Wrong username or password</string>
+
+
+    <string name="prasanje1">What is the correct syntax for outputting "Hello word" in java</string>
+    <string-array name="odgovor1">
+        <item>Console.WriteLine(Hello word)</item>
+        <item>echo(Hello word)</item>
+        <item>print(Hello word)</item>
+        <item>System.out.println("Hello word")</item>
+    </string-array>
+
+    <string name="prasanje2">Is Java short for JavaScript?</string>
+    <string-array name="odgovor2">
+        <item>I agree</item>
+        <item>I partially agree</item>
+        <item>it s not like that at all</item>
+        <item>i think yes</item>
+    </string-array>
+
+    <string name="prasanje3">How do you insert COMMENTS in Java code?</string>
+    <string-array name="odgovor3">
+        <item>#Commentar</item>
+        <item>//Commentar</item>
+        <item>.Commentar</item>
+        <item>*Commentar</item>
+    </string-array>
+
+    <string name="prasanje4">What data type is used to create a variable that should store text?</string>
+    <string-array name="odgovor4">
+        <item>MyString</item>
+        <item>string</item>
+        <item>String</item>
+        <item>Txt</item>
+    </string-array>
+
+    <string name="prasanje5">Which method can be used to find the length of a string?</string>
+    <string-array name="odgovor5">
+        <item>length()</item>
+        <item>len</item>
+        <item>getLength()</item>
+        <item>getSize()</item>
+    </string-array>
+
+    <string name="prasanje6">Which method can be used to return an uppercase string?</string>
+    <string-array name="odgovor6">
+        <item>toUpperCase()</item>
+        <item>uppercase()</item>
+        <item>Uppercase()</item>
+        <item>CaseUpper()</item>
+    </string-array>
+
+
+    <string name="ocenka1">Еxcellently answered</string>
+    <string name="ocenka2">Well answered</string>
+    <string name="ocenka3">You answered moderately</string>
+    <string name="ocenka4">Тry again</string>
+
+    <string name="rezultat">Your answer: </string>
+    <string name="izberiodg">Choose an answer</string>
+    <string name="naslovv">Java Quiz</string>
+    <string name="kopceee">Next</string>
+    <string name="tocenodgovor">Correct Answer: </string>
+    <string name="rez">Result: </string>
+    <string name="pogresenodgovor">Wrong questions: </string>
+
+
+
+    <string name="prasanjee1">Which of the following statements is correct for printing "Hello, World!" in Python?</string>
+    <string-array name="odgovorr1">
+        <item>echo "Hello, World!</item>
+        <item>print("Hello word")</item>
+        <item>print("Hello, world!")</item>
+        <item>System.out.println("Hello word")</item>
+    </string-array>
+
+    <string name="prasanjee2">What is the correct syntax for creating a function in Python?</string>
+    <string-array name="odgovorr2">
+        <item>def myFunction():</item>
+        <item>function myFunction()</item>
+        <item>create myFunction()</item>
+        <item>def myFunction:</item>
+    </string-array>
+
+    <string name="prasanjee3">How do you define a variable with an integer value in Python?</string>
+    <string-array name="odgovorr3">
+        <item>int x = 10</item>
+        <item>x = 10</item>
+        <item>x = int(10)</item>
+        <item>integer x = 10</item>
+    </string-array>
+
+    <string name="prasanjee4">Which of the following commands will add an element to a list in Python?</string>
+    <string-array name="odgovorr4">
+        <item>list.add(5)</item>
+        <item>list.append(5)</item>
+        <item>list.insert(5)</item>
+        <item>list.addElement(5)</item>
+    </string-array>
+
+    <string name="prasanjee5">How do you create a comment in Python?</string>
+    <string-array name="odgovorr5">
+        <item>// This is a comment</item>
+        <item># This is a comment</item>
+        <item>/* This is a comment*/</item>
+        <item>-- This is a comment</item>
+    </string-array>
+
+    <string name="prasanjee6">Which function is used to get the length of a list in Python?</string>
+    <string-array name="odgovorr6">
+        <item>length(list)</item>
+        <item>list.length()</item>
+        <item>count(list)</item>
+        <item>len(list)</item>
+    </string-array>
+
+    <string name="ocenkaa1">Еxcellently answered</string>
+    <string name="ocenkaa2">Well answered</string>
+    <string name="ocenkaa3">You answered moderately</string>
+    <string name="ocenkaa4">Тry again</string>
+
+    <string name="rezultatt">Your answer: </string>
+    <string name="izberiodgg">Choose an answer</string>
+    <string name="naslovvv">Paython Quiz</string>
+    <string name="kopceeee">Next</string>
+    <string name="tocenodgovorr">Correct Answer: </string>
+    <string name="rezz">Result: </string>
+    <string name="pogresenodgovorr">Wrong questions: </string>
+
+
+
+    <string name="prasanjeee1">What is Android Studio?</string>
+    <string-array name="odgovorrr1">
+        <item>Video game</item>
+        <item> Integrated Development Environment (IDE)</item>
+        <item>Operating system</item>
+        <item> Antivirus program</item>
+    </string-array>
+
+    <string name="prasanjeee2">Which programming language is primarily used for Android development in Android Studio?</string>
+    <string-array name="odgovorrr2">
+        <item>Python</item>
+        <item>Ruby</item>
+        <item>Java</item>
+        <item>C#</item>
+    </string-array>
+
+    <string name="prasanjeee3">Which tool is used for building Android applications in Android Studio?</string>
+    <string-array name="odgovorrr3">
+        <item>Maven</item>
+        <item>Gradle</item>
+        <item> Ant</item>
+        <item>Jenkins</item>
+    </string-array>
+
+    <string name="prasanjeee4">Which file is the main entry point for an Android application?</string>
+    <string-array name="odgovorrr4">
+        <item>MainActivity.java</item>
+        <item>build.gradle</item>
+        <item> AndroidManifest.xml</item>
+        <item>strings.xml</item>
+    </string-array>
+
+    <string name="prasanjeee5">What is the name of the base class that all activities in Android inherit from?</string>
+    <string-array name="odgovorrr5">
+        <item> Context</item>
+        <item>View</item>
+        <item>Activity</item>
+        <item>Fragment</item>
+    </string-array>
+
+    <string name="prasanjeee6">Which file is used to define the layout of the user interface in Android Studio?</string>
+    <string-array name="odgovorrr6">
+        <item> layout.xml</item>
+        <item>ui.xml</item>
+        <item>view.xml</item>
+        <item>activity_main.xml</item>
+    </string-array>
+
+    <string name="ocenkaaaa1">Еxcellently answered</string>
+    <string name="ocenkaaaa2">Well answered</string>
+    <string name="ocenkaaaa3">You answered moderately</string>
+    <string name="ocenkaaaa4">Тry again</string>
+
+    <string name="rezultatttt">Your answer: </string>
+    <string name="izberiodgggq">Choose an answer</string>
+    <string name="naslovvvvv">Android Quiz</string>
+    <string name="kopceeeeee">Next</string>
+    <string name="tocenodgovorrrr">Correct Answer: </string>
+    <string name="rezzzz">Result: </string>
+    <string name="pogresenodgovorrrr">Wrong questions: </string>
+
+</resources>
